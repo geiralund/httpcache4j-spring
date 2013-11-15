@@ -1,6 +1,17 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+*.iml
+*.ipr
+*.iws
+*.log
+*~
+.idea
+.DS_Store
+.classpath
+.project
+.settings
+.svn
+catalog.xml
+nbactions.xml
+nbproject
+private
+profiles.xml
+target
