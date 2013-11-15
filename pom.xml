@@ -26,13 +26,6 @@
   <url>https://github.com/httpcache4j/httpcache4j-spring</url>
   <description>ClientHttpRequestFactory implementations</description>
 
-  <scm>
-    <url>https://github.com/httpcache4j/httpcache4j-spring</url>
-    <connection>scm:git:ssh://git@github.com:httpcache4j/httpcache4j-spring.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com:httpcache4j/httpcache4j-spring.git</developerConnection>
-    <tag>HEAD</tag>
-  </scm>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <httpcache4j.version>4.0-RC1</httpcache4j.version>
@@ -77,6 +70,35 @@
       <url>https://nexus.codehaus.org/content/repositories/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
+
+  <scm>
+    <url>https://github.com/httpcache4j/httpcache4j-spring</url>
+    <connection>scm:git:ssh://git@github.com:httpcache4j/httpcache4j-spring.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:httpcache4j/httpcache4j-spring.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>erlend.hamnaberg</id>
+      <name>Erlend Hamnaberg</name>
+      <email>hamnis@codehaus.org</email>
+      <roles>
+        <role>Despot</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/httpcache4j/httpcache4j-spring/issues</url>
+  </issueManagement>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
 
   <build>
     <pluginManagement>
