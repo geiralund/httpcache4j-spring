@@ -23,12 +23,13 @@
   <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>Java HTTP cache :: Spring</name>
-  <url>https://github.com/httpcache4j/httpcache4-spring</url>
+  <url>https://github.com/httpcache4j/httpcache4j-spring</url>
+  <description>ClientHttpRequestFactory implementations</description>
 
   <scm>
-    <url>https://github.com/httpcache4j/httpcache4-spring</url>
-    <connection>scm:git:ssh://git@github.com:httpcache4j/httpcache4-spring.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com:httpcache4j/httpcache4-spring.git</developerConnection>
+    <url>https://github.com/httpcache4j/httpcache4j-spring</url>
+    <connection>scm:git:ssh://git@github.com:httpcache4j/httpcache4j-spring.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:httpcache4j/httpcache4j-spring.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
