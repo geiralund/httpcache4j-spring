@@ -28,7 +28,7 @@ class FilebackedStreamPayload implements Payload {
     @Override
     public InputStream getInputStream() {
         try {
-            return fileBackedStream.getSupplier().getInput();
+            return fileBackedStream.asByteSource().openStream();
         } catch (IOException e) {
             throw new IllegalStateException(e);
         }
