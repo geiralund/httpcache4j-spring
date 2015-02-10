@@ -28,7 +28,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <httpcache4j.version>4.0-RC4</httpcache4j.version>
+    <httpcache4j.version>4.0</httpcache4j.version>
   </properties>
 
   <dependencies>
