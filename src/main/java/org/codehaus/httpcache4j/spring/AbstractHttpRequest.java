@@ -28,7 +28,7 @@ abstract class AbstractHttpRequest extends AbstractClientHttpRequest {
         if (!request.getMethod().canHavePayload()) {
             throw new IllegalStateException(String.format("A %s request may not have a body", request.getMethod()));
         }
-        FileBackedOutputStream fileBackedStream = new FileBackedOutputStream(2048);
+        FileBackedOutputStream fileBackedStream = new FileBackedOutputStream(2048, true);
         request.setPayload(new FilebackedStreamPayload(httpHeaders, fileBackedStream));
         return fileBackedStream;
     }
